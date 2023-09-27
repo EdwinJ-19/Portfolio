@@ -30,7 +30,8 @@ marquee{
     padding: 50px;
     margin-top: 170px;
     margin-right: 200px;
-    background-color: #00A0AE;
+    background-color: rgba(0,160,174,0.5);
+    box-shadow: 4px 4px 10px;
 }
 .card h2{
     padding-bottom: 50px;
