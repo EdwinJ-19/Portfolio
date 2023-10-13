@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-color: #D8B589;
+    /* background-image: url("bg_1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.nav{
+    position: sticky;
+}
+h1{
+    margin: 50px 0px 0px 50px;
+}
+.nav a{
+    float: right;
+    margin: -25px 50px 0px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav ul li{
+    transition: transform 0.3s ease-in-out;
+}
+.nav ul li:hover{
+    transform: translateY(5px);
+} 
+a:hover{
+    color: white;
+    transition: 0.6s;
+}
+.nav a.active{
+    color: white;
+}
+.nav img:hover{
+    border-radius: 35%;
+    box-shadow: 5px 5px 4px black;
+    transition: 0.6s ease-in-out;
+}
+ul{
+    list-style-type:none ;
+}
