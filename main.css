@@ -22,6 +22,7 @@ h1{
 } 
 .nav ul li{
     transition: transform 0.3s ease-in-out;
+    list-style: none;
 }
 .nav ul li:hover{
     transform: translateY(5px);
