@@ -11,7 +11,7 @@ const textLoad = () => {
         text.textContent = "Gamer";
     }, 4000);
     setTimeout(() => {
-        text.textContent = "Photo-Editor";
+        text.textContent = "Django Developer";
     }, 6000);
     
 }
